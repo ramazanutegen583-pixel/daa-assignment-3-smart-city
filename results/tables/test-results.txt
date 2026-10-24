@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: checks.ConnectivityTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s -- in checks.ConnectivityTest
+-------------------------------------------------------------------------------
+Test set: checks.DijkstraTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in checks.DijkstraTest
+-------------------------------------------------------------------------------
+Test set: checks.DsuTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in checks.DsuTest
+-------------------------------------------------------------------------------
+Test set: checks.GraphGeneratorTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s -- in checks.GraphGeneratorTest
+-------------------------------------------------------------------------------
+Test set: checks.MstTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s -- in checks.MstTest

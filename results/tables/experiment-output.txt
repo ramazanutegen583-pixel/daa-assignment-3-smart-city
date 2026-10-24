@@ -1,0 +1,21 @@
+Graph experiments: 3 warm-up runs, 5 measured trials per case
+Algorithm                  V       E     Average ns   Edge exams  Comparisons
+Kruskal                   10      30        30880.0           18          112
+Prim                      10      30        61300.0           60          201
+SCC                       10      30        47080.0           90            0
+Topological-DAG           10      30        17260.0           60            0
+Topological-Cyclic        10      30         3200.0           30            0
+Dijkstra                  10      30        27720.0           90           51
+Kruskal                  100     500       284540.0          215         3838
+Prim                     100     500       165160.0         1000         7623
+SCC                      100     500       371220.0         1500            0
+Topological-DAG          100     500        92500.0         1000            0
+Topological-Cyclic       100     500        27160.0          500            0
+Dijkstra                 100     500       146380.0         1500         2547
+Kruskal                 1000    5000      1252480.0         3216        50417
+Prim                    1000    5000      1299640.0        10000       110972
+SCC                     1000    5000       992360.0        15000            0
+Topological-DAG         1000    5000       607000.0        10000            0
+Topological-Cyclic      1000    5000        39320.0         5000            0
+Dijkstra                1000    5000      1333580.0        15000        35509
+Saved CSV files, Markdown tables, environment details, and SVG plots in results/.
