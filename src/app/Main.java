@@ -3,6 +3,7 @@ package app;
 import connectivity.Kosaraju;
 import connectivity.TopologicalResult;
 import connectivity.TopologicalSort;
+import experiment.Experiment;
 import graph.Graph;
 import metrics.OperationCounts;
 import mst.Kruskal;
@@ -14,11 +15,14 @@ import shortestpath.ShortestPathResult;
 public final class Main {
     public static void main(String[] args) throws Exception {
         String mode = args.length == 0 ? "demo" : args[0];
-        if (!mode.equals("demo")) {
-            throw new IllegalArgumentException("Usage: demo [source vertex 0-6]");
+        if (mode.equals("experiments")) {
+            Experiment.run();
+        } else if (mode.equals("demo")) {
+            int source = args.length > 1 ? Integer.parseInt(args[1]) : 0;
+            runDemo(source);
+        } else {
+            throw new IllegalArgumentException("Usage: demo [source vertex 0-6] | experiments");
         }
-        int source = args.length > 1 ? Integer.parseInt(args[1]) : 0;
-        runDemo(source);
     }
 
     private static void runDemo(int source) {
