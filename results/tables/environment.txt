@@ -1,0 +1,12 @@
+Java: 17.0.20.1
+Java vendor: Microsoft
+OS: Windows 11 10.0
+Architecture: amd64
+Available logical processors: 16
+Base seed: 20261024
+Graph sizes (V,E): (10,30), (100,500), (1000,5000)
+Warm-up runs per case: 3
+Measured trials per case: 5
+Timing: System.nanoTime(), arithmetic mean, operation counting enabled
+Graph generation and result verification are outside the timed interval.
+Source for Dijkstra experiments: 0

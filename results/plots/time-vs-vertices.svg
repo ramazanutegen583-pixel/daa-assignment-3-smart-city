@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="610" viewBox="0 0 1040 610">
+<rect width="1040" height="610" fill="white"/>
+<g font-family="Arial, sans-serif" font-size="14" fill="#1f2937">
+<text x="95.00" y="32.00" text-anchor="start" font-size="23">Execution time vs. vertices</text>
+<text x="95.00" y="53.00" text-anchor="start" font-size="14">Arithmetic mean of 5 trials; both axes use logarithmic scales</text>
+<line x1="95.00" y1="510.00" x2="725.00" y2="510.00" stroke="#e5e7eb" stroke-width="1.0"/>
+<text x="83.00" y="515.00" text-anchor="end" font-size="13">1</text>
+<line x1="95.00" y1="400.00" x2="725.00" y2="400.00" stroke="#e5e7eb" stroke-width="1.0"/>
+<text x="83.00" y="405.00" text-anchor="end" font-size="13">10</text>
+<line x1="95.00" y1="290.00" x2="725.00" y2="290.00" stroke="#e5e7eb" stroke-width="1.0"/>
+<text x="83.00" y="295.00" text-anchor="end" font-size="13">100</text>
+<line x1="95.00" y1="180.00" x2="725.00" y2="180.00" stroke="#e5e7eb" stroke-width="1.0"/>
+<text x="83.00" y="185.00" text-anchor="end" font-size="13">1000</text>
+<line x1="95.00" y1="70.00" x2="725.00" y2="70.00" stroke="#e5e7eb" stroke-width="1.0"/>
+<text x="83.00" y="75.00" text-anchor="end" font-size="13">10000</text>
+<line x1="95.00" y1="70.00" x2="95.00" y2="510.00" stroke="#e5e7eb" stroke-width="1.0"/>
+<text x="95.00" y="535.00" text-anchor="middle" font-size="13">10</text>
+<line x1="410.00" y1="70.00" x2="410.00" y2="510.00" stroke="#e5e7eb" stroke-width="1.0"/>
+<text x="410.00" y="535.00" text-anchor="middle" font-size="13">100</text>
+<line x1="725.00" y1="70.00" x2="725.00" y2="510.00" stroke="#e5e7eb" stroke-width="1.0"/>
+<text x="725.00" y="535.00" text-anchor="middle" font-size="13">1000</text>
+<line x1="95.00" y1="70.00" x2="95.00" y2="510.00" stroke="#374151" stroke-width="1.5"/>
+<line x1="95.00" y1="510.00" x2="725.00" y2="510.00" stroke="#374151" stroke-width="1.5"/>
+<text x="410.00" y="565.00" text-anchor="middle" font-size="16">Number of vertices (V)</text>
+<text transform="translate(25 290) rotate(-90)" text-anchor="middle" font-size="16">Average execution time (microseconds)</text>
+<circle cx="95.00" cy="346.14" r="4" fill="#2563eb"><title>Kruskal: V=10, E=30, 30.880 microseconds</title></circle>
+<circle cx="410.00" cy="240.04" r="4" fill="#2563eb"><title>Kruskal: V=100, E=500, 284.540 microseconds</title></circle>
+<circle cx="725.00" cy="169.25" r="4" fill="#2563eb"><title>Kruskal: V=1000, E=5000, 1252.480 microseconds</title></circle>
+<polyline points="95.00,346.14 410.00,240.04 725.00,169.25 " fill="none" stroke="#2563eb" stroke-width="2"/>
+<line x1="760.00" y1="100.00" x2="790.00" y2="100.00" stroke="#2563eb" stroke-width="3.0"/>
+<text x="800.00" y="105.00" text-anchor="start" font-size="14">Kruskal</text>
+<circle cx="95.00" cy="313.38" r="4" fill="#dc2626"><title>Prim: V=10, E=30, 61.300 microseconds</title></circle>
+<circle cx="410.00" cy="266.03" r="4" fill="#dc2626"><title>Prim: V=100, E=500, 165.160 microseconds</title></circle>
+<circle cx="725.00" cy="167.48" r="4" fill="#dc2626"><title>Prim: V=1000, E=5000, 1299.640 microseconds</title></circle>
+<polyline points="95.00,313.38 410.00,266.03 725.00,167.48 " fill="none" stroke="#dc2626" stroke-width="2"/>
+<line x1="760.00" y1="135.00" x2="790.00" y2="135.00" stroke="#dc2626" stroke-width="3.0"/>
+<text x="800.00" y="140.00" text-anchor="start" font-size="14">Prim</text>
+<circle cx="95.00" cy="325.99" r="4" fill="#15803d"><title>SCC: V=10, E=30, 47.080 microseconds</title></circle>
+<circle cx="410.00" cy="227.34" r="4" fill="#15803d"><title>SCC: V=100, E=500, 371.220 microseconds</title></circle>
+<circle cx="725.00" cy="180.37" r="4" fill="#15803d"><title>SCC: V=1000, E=5000, 992.360 microseconds</title></circle>
+<polyline points="95.00,325.99 410.00,227.34 725.00,180.37 " fill="none" stroke="#15803d" stroke-width="2"/>
+<line x1="760.00" y1="170.00" x2="790.00" y2="170.00" stroke="#15803d" stroke-width="3.0"/>
+<text x="800.00" y="175.00" text-anchor="start" font-size="14">SCC</text>
+<circle cx="95.00" cy="373.93" r="4" fill="#9333ea"><title>Topological-DAG: V=10, E=30, 17.260 microseconds</title></circle>
+<circle cx="410.00" cy="293.72" r="4" fill="#9333ea"><title>Topological-DAG: V=100, E=500, 92.500 microseconds</title></circle>
+<circle cx="725.00" cy="203.85" r="4" fill="#9333ea"><title>Topological-DAG: V=1000, E=5000, 607.000 microseconds</title></circle>
+<polyline points="95.00,373.93 410.00,293.72 725.00,203.85 " fill="none" stroke="#9333ea" stroke-width="2"/>
+<line x1="760.00" y1="205.00" x2="790.00" y2="205.00" stroke="#9333ea" stroke-width="3.0"/>
+<text x="800.00" y="210.00" text-anchor="start" font-size="14">Topological-DAG</text>
+<circle cx="95.00" cy="454.43" r="4" fill="#b45309"><title>Topological-Cyclic: V=10, E=30, 3.200 microseconds</title></circle>
+<circle cx="410.00" cy="352.27" r="4" fill="#b45309"><title>Topological-Cyclic: V=100, E=500, 27.160 microseconds</title></circle>
+<circle cx="725.00" cy="334.59" r="4" fill="#b45309"><title>Topological-Cyclic: V=1000, E=5000, 39.320 microseconds</title></circle>
+<polyline points="95.00,454.43 410.00,352.27 725.00,334.59 " fill="none" stroke="#b45309" stroke-width="2"/>
+<line x1="760.00" y1="240.00" x2="790.00" y2="240.00" stroke="#b45309" stroke-width="3.0"/>
+<text x="800.00" y="245.00" text-anchor="start" font-size="14">Topological-Cyclic</text>
+<circle cx="95.00" cy="351.29" r="4" fill="#0891b2"><title>Dijkstra: V=10, E=30, 27.720 microseconds</title></circle>
+<circle cx="410.00" cy="271.80" r="4" fill="#0891b2"><title>Dijkstra: V=100, E=500, 146.380 microseconds</title></circle>
+<circle cx="725.00" cy="166.25" r="4" fill="#0891b2"><title>Dijkstra: V=1000, E=5000, 1333.580 microseconds</title></circle>
+<polyline points="95.00,351.29 410.00,271.80 725.00,166.25 " fill="none" stroke="#0891b2" stroke-width="2"/>
+<line x1="760.00" y1="275.00" x2="790.00" y2="275.00" stroke="#0891b2" stroke-width="3.0"/>
+<text x="800.00" y="280.00" text-anchor="start" font-size="14">Dijkstra</text>
+<text x="95.00" y="595.00" text-anchor="start" font-size="13">V and E grow together in these datasets; the plots do not isolate their separate effects.</text>
+</g></svg>
